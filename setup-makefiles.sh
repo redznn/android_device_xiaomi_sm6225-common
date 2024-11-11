@@ -22,8 +22,6 @@ source "${HELPER}"
 
 function vendor_imports() {
     cat <<EOF >>"$1"
-        "device/xiaomi/spes",
-        "device/xiaomi/sm6225-common",
         "hardware/qcom/display",
         "hardware/qcom/display/gralloc",
         "hardware/qcom/display/libdebug",
